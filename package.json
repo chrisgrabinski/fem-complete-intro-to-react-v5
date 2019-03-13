@@ -4,6 +4,8 @@
   "description": "Following along with the Frontend Masters Course \"Complete Intro to React v5\" by Brian Holt",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format:check": "prettier --list-different \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/chrisgrabinski/fem-complete-intro-to-react-v5/issues"
   },
-  "homepage": "https://github.com/chrisgrabinski/fem-complete-intro-to-react-v5#readme"
+  "homepage": "https://github.com/chrisgrabinski/fem-complete-intro-to-react-v5#readme",
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
 }
