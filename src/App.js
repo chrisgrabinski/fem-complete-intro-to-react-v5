@@ -1,4 +1,5 @@
-/* global React ReactDOM */
+import React from "react";
+import ReactDOM from "react-dom";
 
 const Pet = ({ name, animal, breed }) => {
   return React.createElement("div", {}, [
