@@ -29,7 +29,8 @@ class Carousel extends Component {
         <img src={photos[active].value} alt="animal" />
         <div className="carousel-smaller">
           {photos.map((photo, index) => (
-            <img
+            <input
+              type="image"
               src={photo.value}
               key={photo.value}
               className={index === active ? "active" : ""}
